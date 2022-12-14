@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            background-color: #47B5FF;
+            color: #A0E4CB;
+        }
+        .con1{
+            background-color: #06283D;
+            border-style: solid;
+            margin: auto;
+        
+            padding: 5%;
+            text-align: center;
+            align-content: center;
+            border-radius: 20px;
+        }
+        .con2{
+            text-align: left;
+            margin: auto;
+        
+        }
+        input{
+            width: inherit;
+        }
+        td{
+            width: 200px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con1">
+        <h1>Rookey Exam Portel</h1>
+        <div class="con2">
+        <h4>Create your account here</h4>
+        <form action="config/adduser.php" method="post">
+            <h4>Personal Details</h4> <hr>
+            <table>
+                <tr><td>
+                    First Name </td><td><input type="text" name="fname" id=""><br></td> <td></td><td>
+                    Last Name </td><td><input type="text" name="lname" id="">
+                </td></tr>
+                <tr><td>
+                    Father Name  </td><td><input type="text" name="faname">
+                    </td></tr>
+                <tr><td>
+                    Mother Name </td><td> <input type="text" name="moname"><br>
+                </td></tr>
+                <tr><td>
+                    Date Of Birth </td><td><input type="date" name="dob" id=""><br>
+                </td></tr>
+                <tr><td>
+                    Gender</td><td>
+                    <input type="radio" name="gender" id="male" width="30px">Male</td><td>
+                    <input type="radio" name="gender" id="female" width="30px">Female
+                </td></tr>
+                <tr><td>
+                    Adhar Number  </td><td><input type="text" name="adno"><br>
+                </td></tr>
+                <tr><td>
+                    Phone Number </td><td><input type="tel" name="phone" id=""><br>
+                </td></tr>
+                <tr><td>
+                    Email  </td><td><input type="email" name="email" id=""><br>
+                </td></tr>
+                <tr><td>
+                    Password </td><td><input type="password" name="password" id=""><br>
+                </td></tr>
+                <tr><td>
+                    Conform Password </td><td><input type="password" name="cpass" id=""><br><br>
+                </td></tr>
+            </table>
+
+            
+            <h4>SSLC Details</h4><hr>
+            <table>
+                <tr>
+                    <td>Board Of Education </td><td><input type="text" name="sbord"></td>
+                </tr>
+                <tr>
+                    <td>School Name</td><td><input type="text" name="ssname"></td>
+                </tr>
+                <tr>
+                    <td>Enter Mark Details</td>
+                </tr>
+                <tr>
+                    <td>Maths </td><td><input type="text" name="smm"></td>
+                </tr>
+                <tr>
+                    <td>Physics </td><td><input type="text" name="smp"></td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td><td> <input type="text" name="smc"></td>
+                </tr>
+                <tr>
+                    <td>Bioledgy/ComputerScience </td><td><input type="text" name="smbc"></td>
+                </tr>
+                <tr>
+                    <td>English </td><td><input type="text" name="sme"></td>
+                </tr>
+                <tr>
+                    <td>Uplode Certificate </td><td><input type="file" name="" id=""></td>
+                </tr>
+            </table>
+
+            <h4>HlC Details</h4><hr>
+            <table>
+                <tr>
+                    <td>Board Of Education </td><td><input type="text" name="hbord"></td>
+                </tr>
+                <tr>
+                    <td>School Name</td><td><input type="text" name="hsname"></td>
+                </tr>
+                <tr>
+                    <td>Enter Mark Details</td>
+                </tr>
+                <tr>
+                    <td>Maths </td><td><input type="text" name="hmm"></td>
+                </tr>
+                <tr>
+                    <td>Physics </td><td><input type="text" name="hmp"></td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td><td> <input type="text" name="hmc"></td>
+                </tr>
+                <tr>
+                    <td>Bioledgy/ComputerScience </td><td><input type="text" name="hmbc"></td>
+                </tr>
+                <tr>
+                    <td>English </td><td><input type="text" name="hme"></td>
+                </tr>
+                <tr>
+                    <td>Uplode Certificate </td><td><input type="file" name="" id=""></td>
+                </tr>
+            </table>
+            <button type="submit">Submit Form</button> 
+        </form>
+        </div>
+
+
+    </div>
+</body>
+</html>
