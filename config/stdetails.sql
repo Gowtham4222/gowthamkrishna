@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 14, 2022 at 03:54 PM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 8.1.10
+-- Generation Time: Dec 14, 2022 at 04:49 PM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 8.0.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -53,17 +53,17 @@ CREATE TABLE `stdetails` (
   `hmc` int(11) NOT NULL,
   `hmbc` int(11) NOT NULL,
   `hme` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `stdetails`
 --
 
 INSERT INTO `stdetails` (`rolno`, `fname`, `lname`, `faname`, `moname`, `dob`, `gender`, `adno`, `phno`, `email`, `pass`, `sbord`, `sshol`, `smm`, `smp`, `smc`, `smbc`, `sme`, `hbord`, `hscol`, `hmm`, `hmp`, `hmc`, `hmbc`, `hme`) VALUES
-(8, 'Ragul', 'J', '', '', '0000-00-00', '', '', '', '', 'ragul', '', '', 0, 0, 0, 0, 0, '', '', 0, 0, 0, 0, 0),
-(9, 'ragul', 'j', 'asdad', 'asdas', '2022-12-21', 'male', '213123213', '213123123', 'sdfs@fg.in', 'ragul', 'asdsadfa', 'sadasd', 23, 89, 98, 89, 89, 'fghfgh', 'fghfdhg', 45, 546, 56, 56, 56),
-(10, 'dsfd', 'J', 'dsf', 'dsfds', '2022-12-07', 'on', 'dffdf', '09600765169', 'raguljayaraj@gmail.com', '', 'dsfds', 'sdfds', 43, 34, 34, 34, 34, 'sdff', 'dsff', 43, 34, 34, 34, 34),
-(11, 'dsfd', 'J', 'dsf', 'dsfds', '2022-12-07', 'on', 'dffdf', '09600765169', 'raguljayaraj@gmail.com', '', 'dsfds', 'sdfds', 43, 34, 34, 34, 34, 'sdff', 'dsff', 43, 34, 34, 34, 34);
+(8, 'Ragul', 'J', 'Jeyaraj', 'Maheshwari', '2003-12-15', 'male', '12345', '9600765169', 'ragul123@gmail.com', 'asdf', 'centre', 'Akshaya public school', 90, 90, 80, 80, 80, 'Centre', 'Akshaya public school', 90, 90, 90, 80, 90),
+(70, 'Kanishka', 'J', 'Jayabalasubramaniam', 'Selvanayagam', '2004-05-22', 'female', '12346', '7550361594', 'kani594@gmail.com', 'Xyz321', 'state', 'KVM school', 80, 90, 85, 90, 80, 'state', 'KVM school', 80, 90, 90, 80, 85),
+(90, 'Malini sri', 'V', 'Velayutham', 'Gomathi', '2003-10-23', 'female', '123457', '6383957827', 'malini@123', 'Xyz567', 'state', 'PKD School', 90, 80, 90, 80, 90, 'state', 'PKD school', 80, 90, 80, 90, 80),
+(112, 'Swetha', 'NB', 'Nagaraj', 'Bhuvana', '2004-01-24', 'female', '123459', '9360376727', 'swetha22@gmail.com', '1234', 'state', 'SVM school', 90, 90, 80, 80, 90, 'state', 'SVM school', 85, 90, 90, 80, 90);
 
 --
 -- Indexes for dumped tables
@@ -83,7 +83,7 @@ ALTER TABLE `stdetails`
 -- AUTO_INCREMENT for table `stdetails`
 --
 ALTER TABLE `stdetails`
-  MODIFY `rolno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `rolno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=113;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
