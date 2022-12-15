@@ -8,4 +8,7 @@ $result = mysqli_fetch_assoc(mysqli_query($conn,$sql));
 if($password==$result['pass']){
     header('location: ../welcome.php?id='.$rolno);
 }
+else{
+    header('location: ../index.html');
+}
 ?>
