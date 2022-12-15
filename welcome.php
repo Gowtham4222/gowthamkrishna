@@ -27,7 +27,7 @@
 </head>
 <body>
     <div class="con1">
-        <h1 style="color: red;">Regestered!</h1>
+        <h1 style="color: red;">Registered!</h1>
         <h3>Your Roll Number is </h3>
 <?php
 
